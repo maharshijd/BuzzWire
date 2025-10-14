@@ -1,6 +1,6 @@
 import React from 'react';
 
-// About Us Page Component
+
 const AboutUsPage = () => {
     const developers = [
         { name: "Maharshi Dindoliwala" },

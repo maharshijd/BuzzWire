@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import NewsPage from './NewsPage';
 import bgImage from '../assets/bgimg1.png';
 
-// Home Page Component
+
 const HomePage = () => {
     const [breakingNews, setBreakingNews] = useState([]);
     const [tickerIndex, setTickerIndex] = useState(0);
@@ -36,7 +36,7 @@ const HomePage = () => {
 
     return (
         <div>
-            {/* Hero Section */}
+            {}
             <div className="text-gray-800 text-center py-20 md:py-32" style={{backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '80vh'}}>
                 <div className="container mx-auto px-4" style={{backgroundColor: 'transparent', borderRadius: '1rem', padding: '2rem'}}>
                     <h1 className="text-4xl md:text-6xl font-bold mb-4">Your Smart Destination for Global News</h1>
@@ -50,7 +50,7 @@ const HomePage = () => {
                 </div>
             </div>
 
-            {/* Breaking News Ticker */}
+            {}
             {breakingNews.length > 0 && (
                 <div className="bg-red-600 text-white flex items-center p-3">
                     <span className="font-bold text-lg mr-4 flex-shrink-0 px-4">Breaking News:</span>
@@ -66,7 +66,7 @@ const HomePage = () => {
                 </div>
             )}
              
-            {/* Trending Section */}
+            {}
             <div ref={trendingSectionRef} className="py-10">
                  <NewsPage apiUrl="https://newsdata.io/api/1/latest?apikey=pub_8b630121f57443c093e4762fd3d6b3e6&country=in&language=en" title="Trending News"/>
             </div>

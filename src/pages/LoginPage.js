@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-// Login Page Component
+
 const LoginPage = ({ onLogin }) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -17,10 +17,10 @@ const LoginPage = ({ onLogin }) => {
              return;
         }
         setError('');
-        // This is a mock login. In a real application, you would make an API call
-        // to authenticate the user with a backend service.
+        
+        
         console.log('Simulating login for:', email);
-        onLogin({ name: 'User', email: email }); // Pass some user data back
+        onLogin({ name: 'User', email: email }); 
     };
 
     return (

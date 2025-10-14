@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import LoadingSpinner from '../components/LoadingSpinner.js';
 import NewsCard from '../components/NewsCard.js';
 
-// Generic News Page Component
+
 const NewsPage = ({ apiUrl, title }) => {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-// --- Reusable Components defined locally to fix import issues ---
+
 
 const LoadingSpinner = () => (
     <div className="flex justify-center items-center h-screen">
@@ -35,7 +35,7 @@ const PageHeader = ({ title, subtitle, imageUrl }) => (
     </div>
 );
 
-// --- Sports News Page Component ---
+
 
 const SportsNewsPage = () => {
     const [articles, setArticles] = useState([]);

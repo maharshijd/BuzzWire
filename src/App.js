@@ -10,9 +10,6 @@ import InternationalNewsPage from './pages/InternationalNewsPage.js';
 // import NationalNewsPage from './pages/NationalNewsPage.js';
 import NavLink from './components/NavLink.js';
 
-
-// --- Main App Component ---
-
 export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -21,13 +18,13 @@ export default function App() {
   const handleLogin = (userData) => {
     setIsLoggedIn(true);
     setUser(userData);
-    setCurrentPage('home'); // Redirect to home after login
+    setCurrentPage('home'); 
   };
 
   const handleLogout = () => {
     setIsLoggedIn(false);
     setUser(null);
-    setCurrentPage('home'); // Redirect to home after logout
+    setCurrentPage('home'); 
   };
 
   const apiKeys = {

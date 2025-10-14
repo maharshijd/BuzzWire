@@ -1,10 +1,10 @@
 import React from 'react';
 
-// News Card Component
+
 const NewsCard = ({ article }) => {
-  // Add a check to ensure article is not null or undefined
+
   if (!article) {
-    // If article is not valid, render nothing to prevent a crash.
+    
     return null;
   }
 

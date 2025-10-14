@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Profile Page Component
+
 const ProfilePage = ({ user, onLogout }) => {
     if (!user) {
         return (
