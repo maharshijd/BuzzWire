@@ -4,6 +4,10 @@ import NewsPage from './pages/NewsPage.js';
 import AboutUsPage from './pages/AboutUsPage.js';
 import LoginPage from './pages/LoginPage.js';
 import ProfilePage from './pages/ProfilePage.js';
+import SportsNewsPage from './pages/SportsNewsPage.js';
+import MareketNewsPage from './pages/MareketNewsPage.js';
+import InternationalNewsPage from './pages/InternationalNewsPage.js';
+// import NationalNewsPage from './pages/NationalNewsPage.js';
 import NavLink from './components/NavLink.js';
 
 
@@ -27,10 +31,10 @@ export default function App() {
   };
 
   const apiKeys = {
-    national: "https://newsdata.io/api/1/latest?apikey=pub_1501994751f14293b0cad37b8500d013&country=in&language=en",
-    international: "https://newsdata.io/api/1/latest?apikey=pub_1501994751f14293b0cad37b8500d013&language=en",
-    sports: "https://newsdata.io/api/1/latest?apikey=pub_1501994751f14293b0cad37b8500d013&q=sports&country=in&language=en",
-    markets: "https://newsdata.io/api/1/latest?apikey=pub_1501994751f14293b0cad37b8500d013&q=crypto&language=en",
+    national: "https://newsdata.io/api/1/latest?apikey=pub_8b630121f57443c093e4762fd3d6b3e6&country=in&language=en",
+    international: "https://newsdata.io/api/1/latest?apikey=pub_8b630121f57443c093e4762fd3d6b3e6&language=en",
+    sports: "https://newsdata.io/api/1/latest?apikey=pub_8b630121f57443c093e4762fd3d6b3e6&q=sports&country=in&language=en",
+    markets: "https://newsdata.io/api/1/latest?apikey=pub_8b630121f57443c093e4762fd3d6b3e6&q=crypto&language=en",
   };
 
   const renderPage = () => {
@@ -38,11 +42,11 @@ export default function App() {
       case 'national':
         return <NewsPage apiUrl={apiKeys.national} title="National News" />;
       case 'international':
-        return <NewsPage apiUrl={apiKeys.international} title="International News" />;
+        return <InternationalNewsPage />;
       case 'sports':
-        return <NewsPage apiUrl={apiKeys.sports} title="Sports News" />;
+        return <SportsNewsPage />;
       case 'markets':
-        return <NewsPage apiUrl={apiKeys.markets} title="Markets & Crypto" />;
+        return <MareketNewsPage />;
       case 'about':
         return <AboutUsPage />;
       case 'login':

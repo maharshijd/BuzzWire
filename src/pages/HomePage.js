@@ -15,7 +15,7 @@ const HomePage = () => {
     useEffect(() => {
         const fetchBreakingNews = async () => {
             try {
-                const response = await fetch("https://newsdata.io/api/1/latest?apikey=pub_1501994751f14293b0cad37b8500d013&q=breaking%20news&language=en&country=in");
+                const response = await fetch("https://newsdata.io/api/1/latest?apikey=pub_8b630121f57443c093e4762fd3d6b3e6&q=breaking%20news&language=en&country=in");
                 const data = await response.json();
                 setBreakingNews(data.results || []);
             } catch (error) {
@@ -68,7 +68,7 @@ const HomePage = () => {
              
             {/* Trending Section */}
             <div ref={trendingSectionRef} className="py-10">
-                 <NewsPage apiUrl="https://newsdata.io/api/1/latest?apikey=pub_1501994751f14293b0cad37b8500d013&country=in&language=en" title="Trending News"/>
+                 <NewsPage apiUrl="https://newsdata.io/api/1/latest?apikey=pub_8b630121f57443c093e4762fd3d6b3e6&country=in&language=en" title="Trending News"/>
             </div>
         </div>
     );
