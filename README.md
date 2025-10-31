@@ -1,4 +1,4 @@
-BuzzWire: A Modern React News ApplicQAation
+BuzzWire: A Modern React News Application
 BuzzWire is a sleek, responsive, and user-friendly news aggregator built with React and styled with Tailwind CSS. It provides users with the latest articles across various categories, including trending topics, sports, international affairs, and financial markets, all presented in a clean and intuitive interface.
 
 ✨ Features
