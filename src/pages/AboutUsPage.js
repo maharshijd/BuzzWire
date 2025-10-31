@@ -12,9 +12,9 @@ const AboutUsPage = () => {
     return (
         <div className="container mx-auto px-4 py-12">
             <div className="bg-white p-8 rounded-lg shadow-lg max-w-4xl mx-auto">
-                <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">About BuzzWire</h1>
+                <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">About BUZZ WIRE</h1>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                    BuzzWire is your premier destination for the latest news and updates from across the globe. Our mission is to provide timely, unbiased, and comprehensive news coverage, keeping you informed on the topics that matter most. From breaking national stories to in-depth international analysis, sports highlights, and market trends, we bring the world to your fingertips.
+                    BUZZ WIRE is your premier destination for the latest news and updates from across the globe. Our mission is to provide timely, unbiased, and comprehensive news coverage, keeping you informed on the topics that matter most. From breaking national stories to in-depth international analysis, sports highlights, and market trends, we bring the world to your fingertips.
                 </p>
                 <p className="text-lg text-gray-700 mb-8 leading-relaxed">
                     We believe in the power of information to connect and empower communities. Our platform is designed for a seamless and engaging user experience, ensuring you can access reliable news anytime, anywhere.
