@@ -6,7 +6,7 @@ User Authentication: A dedicated login page to manage user access.
 
 Dynamic Homepage: A central landing page that directs users to various news sections.
 
-Categorized News Feeds: Separate, dedicated pages for different news categories:
+Categorized News Feeds: Separate, dedicated pages for different news categories :
 
 🔥 Trending: Catch up on the most popular news stories of the moment.
 
